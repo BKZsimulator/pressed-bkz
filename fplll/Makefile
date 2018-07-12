@@ -82,8 +82,8 @@ subdir = .
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) \
 	$(srcdir)/config.h.in $(srcdir)/fplll.pc.in \
-	$(dist_strategy_DATA) COPYING ChangeLog INSTALL NEWS compile \
-	config.guess config.sub install-sh missing ltmain.sh
+	$(dist_strategy_DATA) COPYING ChangeLog INSTALL compile \
+	config.guess config.sub depcomp install-sh missing ltmain.sh
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ax_cxx_compile_stdcxx.m4 \
 	$(top_srcdir)/m4/libtool.m4 $(top_srcdir)/m4/ltoptions.m4 \
